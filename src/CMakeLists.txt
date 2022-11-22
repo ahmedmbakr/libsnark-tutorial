@@ -28,6 +28,8 @@ target_link_libraries(
   test-gadget
 
   snark
+
+  cryptopp
 )
 target_include_directories(
   test-gadget
@@ -36,4 +38,5 @@ target_include_directories(
   ${DEPENDS_DIR}/libsnark
   ${DEPENDS_DIR}/libsnark/depends/libfqfft
   ${DEPENDS_DIR}/libsnark/depends/libff
+  ${DEPENDS_DIR}/cryptopp-cmake
 )
