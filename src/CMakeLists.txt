@@ -3,8 +3,7 @@ include_directories(.)
 add_executable(
   test
 
-  test.cpp
-        encrypt_gadget.h)
+  test.cpp)
 target_link_libraries(
   test
 

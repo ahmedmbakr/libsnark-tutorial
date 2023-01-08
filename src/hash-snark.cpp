@@ -2,7 +2,6 @@
 // Created by bakr on 02/12/22.
 //
 
-#include <armadillo>
 #include "hash-snark.h"
 #include "libsnark/gadgetlib1/gadget.hpp"
 #include "libff/algebra/fields/field_utils.hpp"

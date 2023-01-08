@@ -35,6 +35,19 @@ The repo is set up according to the [tutorial by Howard Wu](https://github.com/h
 
 To install the dependencies:
 
+On Windows 10:
+
+- Add WSL toolchain as described in [this link](https://www.jetbrains.com/help/clion/quick-tutorial-on-configuring-clion-on-windows.html#WSL)
+- Follow the steps in [this link](https://www.jetbrains.com/help/clion/how-to-use-wsl-development-environment-in-product.html#wsl-tooclhain) to install WSL Ubuntu in Windows 10 or higher
+- Download `cmake 3.24.x` by following the steps discussed in [this link](https://askubuntu.com/questions/829310/how-to-upgrade-cmake-in-ubuntu)
+- 
+
+On Ubuntu 20.04 LTS:
+
+```
+sudo apt-get install build-essential cmake git libgmp3-dev libprocps-dev python-markdown libboost-all-dev libssl-dev
+```
+
 On Ubuntu 16.04 LTS:
 
 ```
